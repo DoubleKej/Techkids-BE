@@ -28,9 +28,9 @@ myAngular.config(function($stateProvider, $urlRouterProvider){
   });
 });
 
-myAngular.directive("techkids", [function(){
+myAngular.directive("lx", [function(){
   return {
     restrict: "A",
-    templateUrl: "templates/techkids.html",
+    templateUrl: "templates/lx.html",
   }
 }])
